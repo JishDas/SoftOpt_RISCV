@@ -5,8 +5,8 @@
 RISCV_GCC = riscv64-unknown-elf-gcc
 CFLAGS = -O3
 SPIKE = spike
-PK = /home/jishnu/projects/riscv/shakti/shakti-tools/riscv64/riscv64-unknown-elf/bin/pk
-#  PK = pk
+# PK = /home/jishnu/projects/riscv/shakti/shakti-tools/riscv64/riscv64-unknown-elf/bin/pk
+PK = pk
 
 # Directories
 OUT_DIR = out
