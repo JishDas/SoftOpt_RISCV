@@ -7,7 +7,7 @@ This project benchmarks matrix multiplication on RISC-V using naive and cache-aw
 
 You must have the following installed:
 
-1. riscv64-linux-gnu-gcc
+1. riscv64-unknown-elf-gcc
 2. spike
 3. pk (Proxy kernel)
 4. make (build automation)
