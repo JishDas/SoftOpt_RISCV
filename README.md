@@ -19,7 +19,7 @@ You must have the following installed:
 cd /path/to/your/project
 make all
 make run        # compiles using the normal flags
-make run-vector # runs the vector flags in the code
+make run-vector # compiles using the vector flags
 make clean
 ```
 
@@ -32,7 +32,7 @@ make run N=10 TILE=2
 
 2. If you want to enable the vector flags then run
 ```bash
-
+make run-vector
 ```
 after running make all
 ---
