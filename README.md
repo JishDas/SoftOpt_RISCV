@@ -1,6 +1,7 @@
 # RISC-V Matrix Multiplication Benchmarking
 
 This project benchmarks matrix multiplication on RISC-V using naive and cache-aware (loop-tiled) methods, running in a simulated environment (spike + pk). It measures execution time in CPU cycles using `rdcycle`.
+It runs with both vector flags enabled and disabled.
 
 
 ## Requirements
@@ -16,14 +17,24 @@ You must have the following installed:
 
 ```bash
 cd /path/to/your/project
-make
-make run
+make all
+make run        # compiles using the normal flags
+make run-vector # runs the vector flags in the code
 make clean
 ```
-or if you want to run with specific parameters, then run 
+
+## Optional parameters
+
+1. If you want to run with specific parameters, then run 
 ```bash
 make run N=10 TILE=2
 ```
+
+2. If you want to enable the vector flags then run
+```bash
+
+```
+after running make all
 ---
 ## Sample Output
 
