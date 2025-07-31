@@ -34,7 +34,7 @@ make run N=10 TILE=2
 ```bash
 make run-vector
 ```
-after running make all
+
 ---
 ## Sample Output
 
